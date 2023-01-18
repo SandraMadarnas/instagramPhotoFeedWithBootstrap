@@ -33,6 +33,20 @@
                                 data-bs-target="#staticBackdrop">
                                 Create a new post
                             </button>
+                            <!--Button DropDown-->
+                            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-menu-end"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-cog"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Acesibility</a></li>
+                                <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item link-danger" href="#">Log out</a></li>
+                            </ul>
                         </div>
                         <!-- Modal -->
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
@@ -69,25 +83,6 @@
                             </div>
                         </div>
                         <!--Fin Button Modal-->
-                        <div class="col-2 col-sm-1">
-                            <div class="btn-group">
-                                <!--Button DropDown-->
-                                <button type="button" class="btn btn-secondary dropdown-toggle"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fas fa-cog"></i>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Profile</a></li>
-                                    <li><a class="dropdown-item" href="#">Acesibility</a></li>
-                                    <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item link-danger" href="#">Log out</a></li>
-                                </ul>
-                                <!--Fin Button DropDown-->
-                            </div>
-                        </div>
                     </div>
                 </nav>
             </div> <!--Div Col 12-->
@@ -131,9 +126,12 @@
                     <div class="col-12 col-sm-4">
                         <img src="https://cdn.pixabay.com/photo/2016/03/27/21/52/woman-1284411_960_720.jpg"
                             class="img-thumbnail" alt="Chica Sonriendo">
-                        <!-- IMG VERTICAL https://cdn.pixabay.com/photo/2018/08/09/18/34/portrait-3595183_960_720.jpg-->
-                    </div>
 
+                    </div>
+                    <!-- IMG VERTICAL -->
+                    <!--<div class="col-12 col-sm-4 w-25 h-25">
+                        <img src="https://cdn.pixabay.com/photo/2018/08/09/18/34/portrait-3595183_960_720.jpg"
+                            class="object-fit-cover w-100" alt="Chica Sonriendo">-->
                     <div class="col-12 col-sm-4">
                         <img src="https://cdn.pixabay.com/photo/2015/10/06/18/26/eiffel-tower-975004_960_720.jpg"
                             class="img-thumbnail" alt="Paisaje2">
@@ -162,16 +160,15 @@
 
             <!--Fin Imágenes-->
 
-
+            <!--Cards View-->
             <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                <!--Cards View-->
-                <div class="container">
-                    <div class="row">
 
-                        <!--Card 1-->
-                        <div class="col-md-3"></div>
-                        <div class="col-12 col-lg-6 position-relative">
-                            <div class="card m-3 w-auto p-2" style="width: 20rem;">
+                <div class="container">
+
+                    <!--Card 1-->
+                    <div class="row justify-content-center">
+                        <div class="col-12 w-50 p-3">
+                            <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">My Crazy Dog Spark!</h5>
                                 </div>
@@ -184,15 +181,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3"></div>
-                        <!--Card 2-->
-                        <div class="col-lg-3"></div>
-                        <div class="col-12 col-md-6 position-relative">
-                            <div class="card m-3 w-auto p-2" style="width: 20rem;">
+                    </div>
+
+                    <!--Card 2-->
+                    <div class="row justify-content-center">
+                        <div class="col-12 w-50 p-3">
+                            <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">The Greatness of Croatia</h5>
                                 </div>
-                                <img src="https://img.freepik.com/foto-gratis/hermosa-foto-lago-cristalino-junto-base-montana-nevada-dia-soleado_181624-5459.jpg?w=996&t=st=1673493911~exp=1673494511~hmac=85b56ccfad72046595e97e008c67f3dfef296a3afa45b0666c48ec29d84a2d6c"
+                                <img src="https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_960_720.jpg"
                                     class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text"><b>26985 Likes</b></p>
@@ -201,15 +199,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3"></div>
-                        <!--Card 3-->
-                        <div class="col-3"></div>
-                        <div class="col-12 col-lg-6 position-relative">
-                            <div class="card m-3 w-auto p-2" style="width: 20rem;">
+                    </div>
+
+                    <!--Card 3-->
+                    <div class="row justify-content-center">
+                        <div class="col-12 w-50 p-3">
+                            <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">Amazing GOAL by Cristiano!</h5>
                                 </div>
-                                <img src="https://cdn.pixabay.com/photo/2013/09/11/19/03/stadium-181457_960_720.jpg"
+                                <img src="https://cdn.pixabay.com/photo/2020/11/18/10/18/players-5754868_960_720.jpg"
                                     class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text"><b>204 Likes</b></p>
@@ -218,24 +217,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3"></div>
-
-
-
-                        <!--<div class="col-12 position-relative">
-                <div class="card top-0 position-absolute top-0 start-0" style="width: 30rem;">
-                    <img src="https://img.freepik.com/foto-gratis/carrera-perrito-maltipu-planteando_155003-22631.jpg?w=996&t=st=1673493752~exp=1673494352~hmac=0dd6ae3d979610fa631c73db1857079e64b532f59091230c75bcb56136c813dd" 
-                    class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                </div>
-            </div>-->
 
-
-                    </div>
                 </div>
                 <!-- Fin Cards View-->
             </div>
@@ -250,5 +233,4 @@
         integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
