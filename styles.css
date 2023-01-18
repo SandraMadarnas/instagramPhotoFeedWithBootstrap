@@ -1,0 +1,10 @@
+img {
+    height: 50vh;
+    object-fit: cover;
+}
+.nav-link {
+    color: gray !important;
+}
+.nav-link.active {
+    color: blue !important;
+}
